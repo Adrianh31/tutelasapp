@@ -112,7 +112,7 @@ def main():
     with st.sidebar:
         #html_title = "<h1 style='text-align: lefht; font-size:15px;font-weight: bold;'>⚖️ ASISTENTE IA EMSSANAR EPS </h1>" #font-family:Verdana, sans-serif;
         #st.markdown(html_title, unsafe_allow_html=True)
-        imagen = "img/Logo_Emssanar_EPS.png"
+        imagen = "Logo_Emssanar_EPS.png"
         st.image(imagen)#,align='center')
         st.write("---")
 
@@ -134,7 +134,7 @@ def main():
         
         
         #st.write("---")
-        st.image("img/oie_30144137iJGmGE90.gif")
+        st.image("oie_30144137iJGmGE90.gif")
         #st.write("---")
         st.write()  # 
         texto = "<p style='font-size: 10px;text-align: center;'>| © Emssanar 2024 | \n Creado por: Ing. Adrian Hidalgo.</p>"
