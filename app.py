@@ -24,8 +24,10 @@ from io import BytesIO
 
 warnings.filterwarnings('ignore')
 
-# Configura el cliente de AWS Bedrock
-boto3_bedrock = boto3.client('bedrock-runtime')
+# Configura el cliente de AWS Bedrock y la region.
+region= 'us-east-1' #us-west-2
+boto3_bedrock = boto3.client('bedrock-runtime',region_name=region)
+#boto3_bedrock = boto3.client('bedrock-runtime')
 
 question_answer_history = []
 
